@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 internal class CharacterThree : Character
 {
 
-    private static readonly string description = "I'm the Son of Anakin Skywalker";
-    private static readonly string whoami = "Luke Skywalker";
-    private static readonly string information = "Together with my sister, Leia, we were able to strike a critical blow to the empire!";
-    private static readonly string greetingmsg = "I Am A Jedi, Like My Father Before Me";
+    private static readonly string description = "J.A.R.V.I.S., make a note. Remind me not to wake up in the morning ever again";
+    private static readonly string whoami = "Tony Stark";
+    private static readonly string information = "Iron Man. That’s kind of catchy. It’s got a nice ring to it. I mean it’s not technically accurate. The suit’s a gold titanium alloy, but it’s kind of provocative, the imagery anyway";
+    private static readonly string greetingmsg = "Genius, billionaire, playboy, philanthropist";
 
     public CharacterThree() : base(description, whoami)
     {
@@ -28,6 +28,6 @@ internal class CharacterThree : Character
 
     public override string sayGoodbye()
     {
-        return("May the force be with you.");
+        return("I am iron man.");
     }
 }
